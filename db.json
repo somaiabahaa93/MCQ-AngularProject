@@ -1,0 +1,27 @@
+{
+  "students": [
+    {
+      "username": "somaia",
+      "email": "somaia@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 2
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 1
+    }
+  ],
+  "login": [
+    {
+      "username": "admin",
+      "role": "doctor",
+      "id": 1
+    }
+  ]
+}
