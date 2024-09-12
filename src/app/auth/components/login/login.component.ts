@@ -57,6 +57,7 @@ export class LoginComponent implements OnInit {
         // userId: this.users[index].id,
       };
       this.service.login(model).subscribe((res) => {
+        this.service.user.next(res);
         this.toastr.success(' تم الدخول بنجاح');
         this.router.navigate(['/subjects']);
       });
